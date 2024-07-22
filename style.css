@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.btn-primary{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid #3c366b !important;
+    color: #3c366b !important;
+    background: none !important;
+
+}
+.btn-primary:hover{
+    background: #3c366b !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+#life{
+    padding: 40px 0;
+    color: #3c366b;
+}
+.title::before{
+    content: '';
+    background: #3c366b;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+}
+ul li{
+    padding: 3px;
+    font-weight: 300;
+    color: black;
+}
+body {
+    background-image: url('back.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background image fixed on scroll */
+    background-position: center; /* Center the background image */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% */
+}
